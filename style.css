@@ -1,0 +1,132 @@
+* {
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border: 0;
+    z-index: 1;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url(/src/deadpol.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+}
+.formulario{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/src/fondo\ rojo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    box-shadow: 0px 25px 30px;
+    border-radius: 15px;
+    padding: 20px;
+    width: 42%;
+    bottom: 25px;
+}
+.encabezado{
+    position: relative;
+    display: flex;
+    flex-direction: column;  
+    bottom: 1%;
+    color: white;
+}
+.button{
+    position: relative;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.h1_encabezado{
+    font-size: 30px;
+    text-shadow: 2px 3px 2px rgb(0, 0, 0);
+}
+.button1{
+    padding: 18px;
+    border-radius: 15px;
+    width: 150px;
+    margin:10px;
+    color: white;
+    text-shadow: 2px 3px 2px rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.button1:hover{
+    background-color: rgb(255, 0, 0);
+    text-shadow: 2px 3px 2px rgb(251, 255, 0);
+}
+.button1:active{
+    background-color: rgb(207, 0, 0);
+    text-shadow: 2px 3px 2px rgb(255, 238, 0, 0.8) ;
+    opacity: 0.6;
+}
+.form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.USUARIO, .contra, .fooster{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-shadow:2px 3px 2px rgb(0, 0, 0);
+}
+input{
+    padding: 10px;
+    border-radius: 15px;
+    width: 350px;
+}
+.fooster button{
+    padding: 15px;
+    border-radius: 15px;
+    width: 150px;
+    margin:10px;
+    color: white;
+    text-shadow: 2px 3px 2px rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+.fooster button:hover{
+    background-color: rgb(255, 0, 0);
+    text-shadow: 2px 3px 2px rgb(251, 255, 0);
+}
+.fooster button:active{
+    background-color: rgb(207, 0, 0);
+    text-shadow: 2px 3px 2px rgb(255, 238, 0, 0.8) ;
+    opacity: 0.6;
+}
+ p{
+    color: rgb(0, 0, 0);
+    text-shadow: none;
+ }
+p:hover{
+    color: rgb(255, 251, 0);
+ }
+ p:active{
+    color:rgb(255, 238, 0, 0.8) ;
+    opacity: 0.6;
+ }

@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-image:linear-gradient(to right,rgba(255, 0, 0, 0.5),rgb(0, 0, 0,0.5)) ,url(/src/joker.png);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.conatainer{
+    position: initial;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+/* Estilos generales para el menú */
+.nav-1 {
+  position: relative;
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+  width: 100vw;
+}
+/* Estilos para la lista de elementos del menú */
+.nav-1 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+/* Estilos para cada elemento del menú */
+.nav-1 li {
+  margin-right: 20px;
+  padding: 6px;
+  margin-right: 40px;
+  margin-left: 30px;
+}
+.nav-1 a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  border: 0;
+}
+.nav-1 input{
+    border: 0;
+    padding: 10px;
+    width: 50vw;
+    border-radius: 15px;
+    margin: 0 none;
+}
+.nav-1 a:hover {
+  color: #535353;
+}
+.nav-1 a:active{
+    color: #202020;
+}
+.nava-2{
+    position: relative;
+    background-color: rgba(105, 0, 0, 0.9);
+    padding: 5px;
+    text-align: center;
+    width: 100vw;
+}
+.nava-2 ul{
+    list-style: none;
+    display: flex;
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.nava-2 li{
+    padding: 5px;
+    margin-right: 40px;
+    margin-left: 30px;
+}
+.nava-2 select{
+   background-color: #00000000;
+   color: white;
+   border: 0;
+}
+.imagen-ejemplo{
+    position: relative;
+    background-image:linear-gradient(to right,rgb(0, 0, 0, 0.5),rgb(0, 0, 0, 0.5)) ,url(/src/deadpol3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 180px;
+    color: white;
+    text-shadow: 2px 3px 2px black;
+}
+h2{
+    font-size: 20px;
+    text-shadow: 2px 3px 2px black;
+    color: white;
+    margin: 50px;
+
+}
+.gaming-img, .gaming-img2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border: 0;
+}
+button{
+    border: none;
+    padding: 10px 20px;
+    padding: 0;
+    margin: 20px;
+    border: 0;
+}
+button:hover{
+    background-color: #000000;
+    opacity: 0.5;
+    padding: 0;
+    margin: 5px;
+    border: 0;
+    
+}
+button:active{
+    padding: 0;
+    margin: 5px;
+    border: 0;
+}
+button:focus{
+background-color: #ff0000;
+padding: 0;
+margin: 5px;
+border: 0;
+}
+/* Estilos para pantallas pequeñas (menos de 480px) */
+@media only screen and (max-width: 480px) {
+    .nav-1 {
+      padding: 5px;
+    }
+    .nav-1 li {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    .nav-1 input {
+      width: 30vw;
+    }
+    .imagen-ejemplo {
+      padding: 100px;
+    }
+    h2 {
+      font-size: 15px;
+      margin: 20px;
+    }
+    .gaming-img, .gaming-img2 {
+      margin: 2px;
+    }
+  }
+  
+  /* Estilos para pantallas medianas (entre 481px y 768px) */
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .nav-1 {
+      padding: 10px;
+    }
+    .nav-1 li {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+    .nav-1 input {
+      width: 40vw;
+    }
+    .imagen-ejemplo {
+      padding: 150px;
+    }
+    h2 {
+      font-size: 18px;
+      margin: 30px;
+    }
+    .gaming-img, .gaming-img2 {
+      margin: 3px;
+    }
+    button {
+      padding: 10px 15px;
+      margin: 15px;
+    }
+  }
+  
+  /* Estilos para pantallas grandes (más de 768px) */
+  @media only screen and (min-width: 769px) {
+    .nav-1 {
+      padding: 15px;
+    }
+    .nav-1 li {
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+    .nav-1 input {
+      width: 50vw;
+    }
+    .imagen-ejemplo {
+      padding: 200px;
+    }
+    h2 {
+      font-size: 22px;
+      margin: 40px;
+    }
+    .gaming-img, .gaming-img2 {
+      margin: 5px;
+    }
+   
+  }
